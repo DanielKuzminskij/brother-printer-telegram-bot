@@ -1,0 +1,4 @@
+aiohttp
+playwright
+requests
+python-telegram-bot==20.8
