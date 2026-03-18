@@ -7,6 +7,9 @@ from playwright.async_api import async_playwright
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
+from dotenv import load_dotenv
+load_dotenv()
+
 LOGIN_PAGE = "https://refreshezprintsubscription.brother-usa.com/Account/#/account/login?sessionlogout=logout"
 DEVICE_URL = "https://refreshezprintsubscription.brother-usa.com/api/device/getdevicelist?checkSwap=false"
 
